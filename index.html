@@ -1,0 +1,296 @@
+<!--index.html-->
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+ <meta charset="utf-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, 
+initial-scale=1">
+ <!-- The above 3 meta tags *must* come first in the 
+head; any other head content must come *after* these tags 
+-->
+ <title>Our Environment</title>
+ <!-- Bootstrap -->
+ <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+ <link href="styling.css" rel="stylesheet">
+ <link href='https://fonts.googleapis.com/css?family=Vollkorn'>
+ <link src='stylesheet' type='text/css'> >
+ </head>
+ <body>
+    <body data-spy="scroll" data-target="#mynavBar">
+
+<!--Add video to the body element-->
+ <video autoplay loop muted id="bgvideo">
+    <source src="images/Time Lapse Video Of Night Sky.mp4"
+   type="video/mp4">
+    </video>
+ 
+<!-- create navigation bar with scrollspy -->
+<nav class="navbar navbar-expand-lg bg-dark">
+    <div class="container-fluid">
+        <ul class="nav justify-content-end">
+      <a class="navbar-brand" href="#">Our Environment</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Promise</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+<!-- <nav role="navigation" class="navbar navbar-default navbar-fixed-top" id="mynavbar">
+
+    <div class="container-fluid">
+        <div class="navbar-header">
+        <a class="navbar-brand">Our Environment</a>
+        <!-- <button type="button" class="navbar-toggle" data-target="navbar-collapse" data-toggle="collapse">
+            <span>Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+
+        </button> -->
+        </div>
+        <!-- <div class="navbar-collapse collapse" id="navbarcollapse">
+        </div> -->
+
+        <!-- <nav>
+            <nav id="navbar">
+            
+              <ul>
+                  <li class="item"><a href="#Home">Home</a></li>
+                  <li class="item"><a href="#About">About</a></li>
+                  <li class="item"><a href="#Our Promise">Our Promise</a></li>
+              </ul>
+            </nav>
+    </div>
+</nav>  -->
+ 
+<!-- <nav>
+<nav id="navbar">
+
+  <ul>
+      <li class="item"><a href="#Home">Home</a></li>
+      <li class="item"><a href="#About">About</a></li>
+      <li class="item"><a href="#Our Promise">Our Promise</a></li>
+  </ul>
+</nav> --> -->
+
+<!--create the home section with title,goal and joins us buttons -->
+<div class="jumbotron" id="home">
+    <div class="container">
+        <h1>#INCREDIBLE ENVIRONMENT</h1>
+        <h2>GO FOR TO PROTECT OUR NATURE</h2>
+        <p><a class="btn" href="#">Join us Now!</a></p>
+
+    </div>
+</div>
+
+<!-- create about section showing course details using grid system -->
+<div class="card-group">
+    <div class="card">
+      <img src="images/cleanair.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Our Right To Clean Air</h5>
+        <p class="card-text">Join us in demanding our right to CLEAN AIR.Based on the new WHO Air Quality Guidelines ,the majority of the pollution in India is breathing polluted air. The first stepto working towards better air is improvig our domestic AQI. </p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="images/powerthepedal.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Power the Pedal</h5>
+        <p class="card-text">'If a women can work and run the house,why can't ride a cycle?"</p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="images/gethelp.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Get Help Anytime!</h5>
+        <p class="card-text">Post your Questions in the fourms of the Enviroment where myself and millions of peoples are happy to Help! This card has even longer content than the first to show that equal height action.</p>
+      </div>
+    </div>
+  </div>
+<!-- <div id="about">
+    <div class="conatiner">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="images/cleanair.jpg" class="aboutImage">
+                <h2>Our Right To Clean Air</h2>
+                <p>Join us in demanding our right to CLEAN AIR.Based on the new WHO Air Quality Guidelines ,the majority of the pollution in India is breathing polluted air. The first stepto working towards better air is improvig our domestic AQI. </p>
+            </div>
+            <div class="col-md-4">
+                <img src="images/powerthepedal.jpg" class="aboutImage">
+                <h2>Power the Pedal</h2>
+                <p>'If a women can work and run the house,why can't ride a cycle?"</p>
+            </div>
+            <div class="col-md-4">
+                <img src="images/gethelp.jpg" class="aboutImage">
+                <h2>Get Help Anytime!</h2>
+                <p>Post your Questions in the fourms of the Enviroment where myself and millions of peoples are happy to Help!</p>
+            </div>
+        </div>
+    </div>
+</div> -->
+
+<!-- create carousel -->
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/volunteer.webp" class="d-block w-70" alt="...">
+        <div class="carousel-caption">
+            <h2>Our planets need you.Volunteer with us and be an active part of our campaigns.</h2>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images/healthy.png" class="d-block w-100" alt="...">
+        <div class="carousel-caption">
+            <h2>A HEALTHY PLANET MEANS A HEALTHY PEOPLE</h2>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images/GettyImages-861341028.mov-Still006-landing-page.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption">
+            <h2>
+                Making a lasting difference takes more than just great ideas. EDF's 2.5 million members and activists bring great ideas to life.
+                Help us drive real change for healthier communities and a thriving planet</h2>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images/maxresdefault.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption">
+            <h2>Here's how we are building a vital Earth.For everyone.</h2>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images/ED1235756.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption">
+            <h2>Cutting methane emissions is the fast way to slow global warming right now.</h2>
+        </div>
+        <div class="carousel-item">
+            <img src="images/Tenn-Warbler-Homepage_Hero_v2.jpg" class="d-block w-100" alt="">
+            <div class="carousel-caption">
+                <h2>Cutting methane emissions is the fast way to slow global warming right now.</h2>
+            </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+<!-- <div id="Promise" class="container-fluid">
+    <div class="carousel slide" id="myCarousel" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active">
+            </li>
+            <li data-target="#myCarousel" data-slide-to="1">
+            </li>
+            <li data-target="#myCarousel" data-slide-to="2">
+            </li>
+            <li data-target="#myCarousel" data-slide-to="3">
+            </li>
+            <li data-target="#myCarousel" data-slide-to="4">
+            </li>
+            <li data-target="#myCarousel" data-slide-to="5">
+        </ol>
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="images/volunteer.webp">
+                <div class="carousel-caption">
+                    <h2>Our planets need you.Volunteer with us and be an active part of our campaigns.</h2>
+                </div>
+            </div>
+            
+            <div class="item">
+                <img src="images/healthy.png">
+                <div class="carousel-caption">
+                    <h2>A HEALTHY PLANET MEANS A HEALTHY PEOPLE</h2>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/GettyImages-861341028.mov-Still006-landing-page.jpg">
+                <div class="carousel-caption">
+                    <h2>
+                        Making a lasting difference takes more than just great ideas. EDF's 2.5 million members and activists bring great ideas to life.
+                        Help us drive real change for healthier communities and a thriving planet</h2>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/maxresdefault.jpg">
+                <div class="carousel-caption">
+                    <h2>Here's how we are building a vital Earth.For everyone.</h2>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/ED1235756.jpg">
+                <div class="carousel-caption">
+                    <h2>Cutting methane emissions is the fast way to slow global warming right now.</h2>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/Tenn-Warbler-Homepage_Hero_v2.jpg">
+                <div class="carousel-caption">
+                    <h2>Help us drive a real change for healthier communities and a threving planet.</h2>
+                </div>
+            </div>
+        </div>
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</div> -->
+
+<!-- Add a footer for our website -->
+<div class="footer">
+    <div class="container">
+        <p>Develop with Dharmendra.</p>
+
+    </div>
+
+</div>
+ 
+ <!-- jQuery (necessary for Bootstrap's JavaScript 
+plugins) -->
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+ <!-- Include all compiled plugins (below), or include 
+individual files as needed -->
+ <script>
+     $(function(){
+         $('.carousel').carousel({
+             interval: 10000
+         });
+     });
+ </script>
+ </body>
+</html>
